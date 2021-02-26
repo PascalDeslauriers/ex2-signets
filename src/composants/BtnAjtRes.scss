@@ -1,0 +1,22 @@
+button:focus, input:focus{
+    outline: none;
+}
+.BtnAjoutRessource{
+    border: none;
+    width: 60px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    font-size: 2em;
+    background-color: #1b1f1f;
+    border-radius: 50%;
+    filter: drop-shadow(5px 5px 0.3rem black);
+    float: right;
+    right: 30px;
+    bottom: 30px;
+}
+.BtnAjoutRessource:hover{
+    cursor: pointer;
+}
